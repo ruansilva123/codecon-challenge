@@ -6,7 +6,7 @@ Esta sessão contém o passo a passo de como executar a UI localmente.
 
 1. Abra a pasta da UI em sua máquina:
 
-        cd sentimental_analysis/sentimental_analysis_front
+        cd sentimental_analysis_front
 
 2. Instale as dependências do projeto:
 

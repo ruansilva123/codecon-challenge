@@ -6,7 +6,7 @@ Esta sessão contém o passo a passo de como executar o projeto localmente e mai
 
 1. Abra a API em sua máquina:
 
-        cd sentimental_analysis/sentimental_analysis_api
+        cd sentimental_analysis_api
 
 2. Crie uma máquina virtual:
 
