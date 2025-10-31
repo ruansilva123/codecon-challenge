@@ -20,15 +20,22 @@ Esta sessão contém o passo a passo de como executar o projeto localmente e mai
 
         pip install -r requirements.txt
 
-5. Execute as migrações:
+5. Crie um arquivo `.env` para as variáveis de ambiente dentro da pasta atual.
+
+6. No arquivo `.env`, ensira as variáveis de ambiente:
+
+		DJANGO_SECRET_KEY=<sua_secret_key_django>
+		GEMINI_API_KEY=<sua_api_key_gemini>
+
+7. Execute as migrações:
 
         python manage.py migrate
 
-6. Inicie o servidor:
+8. Inicie o servidor:
 
         python manage.py runserver
 
-7. Acesse o Swagger para iniciar:
+9. Acesse o Swagger para iniciar:
 
         http://127.0.0.1:8000/swagger/
 
